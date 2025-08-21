@@ -5,15 +5,21 @@ It demonstrates the use of **classes, dynamic memory allocation, copy constructo
 
 ---
 
-## Features
-- **MyDate class** for handling dates (day, month, year) and attaching comments.
-- **Calendar class** that manages up to 30 dates:
-  - Insert and remove dates.
-  - Find the first free slot.
-  - Retrieve the oldest date.
-  - Print all stored dates.
-- **Dynamic memory management** with proper destructors.
-- **Encapsulation** with getters and setters.
+- **MyDate class**  
+  - Represents a date (day, month, year) with an optional personal note.  
+  - Provides functions to display, modify, and validate dates.  
+  - Includes **getters and setters** for safe and controlled access to internal fields.  
+
+- **Calendar class**  
+  - Manages a calendar of up to 30 dates.  
+  - Supports **adding and removing** dates.  
+  - Finds the **first available slot** in the calendar.  
+  - Retrieves the **earliest date** among all stored dates.  
+  - Prints a formatted list of all saved dates.  
+
+- **Object-Oriented Programming (OOP) principles**  
+  - Uses constructors, destructors, and **deep copy** to ensure safe memory management.  
+  - Demonstrates **encapsulation**: private fields are only accessible through class methods.  
 
 ---
 
